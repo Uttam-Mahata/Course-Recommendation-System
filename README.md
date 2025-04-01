@@ -1,4 +1,3 @@
-
 # Course Recommendation System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Uttam-Mahata/Course-Recommendation-System)
@@ -206,24 +205,17 @@ cd Course-Recommendation-System
 
 2. Install the required dependencies:
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+pip install pandas numpy scikit-learn matplotlib seaborn flask
 ```
 
-3. Open the Jupyter Notebook:
+3. Run the Flask application:
 ```bash
-jupyter notebook CRMS.ipynb
+python app.py
 ```
 
-4. Run all cells to preprocess data and generate recommendation models
+4. Open your web browser and go to `http://127.0.0.1:5000` to access the Course Recommendation System.
 
-5. Use the recommendation functions with a course name:
-```python
-# Using CountVectorizer-based recommendations
-recommend("Finance for Managers")
-
-# Using TF-IDF-based recommendations
-recommend_tf("Finance for Managers")
-```
+5. Enter a course name in the input field and click "Get Recommendations" to see the recommended courses.
 
 ## Results and Evaluation
 
